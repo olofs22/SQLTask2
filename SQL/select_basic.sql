@@ -1,10 +1,10 @@
 
---Vilka reparationer kostar över 2000kr?
+--Vilka reparationer kostar Ã¶ver 2000kr?
 SELECT Task, Price 
 FROM CustomerCar 
 WHERE Price > 2000;
 
---Vilka bilar i verkstaden är äldre än 2013
+--Vilka bilar i verkstaden Ã¤r Ã¤ldre Ã¤n 2013
 SELECT *
 FROM Car 
 WHERE Year < 2013;
@@ -24,7 +24,7 @@ SELECT CustomerId, SUM(Price) AS TotalRepairCost
 FROM CustomerCar
 GROUP BY CustomerId;
 
---Vilken kund som har vilken låne bil
+--Vilken kund som har vilken lÃ¥ne bil
 SELECT CarId, CustomerId
 FROM CustomerRental
 ORDER BY CarId;
