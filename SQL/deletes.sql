@@ -1,0 +1,1 @@
+DELETE FROM Customer WHERE Id IN (3, 4, 5, 9, 10);
